@@ -1,0 +1,30 @@
+body{
+	margin-top: 30px;
+	background-color: lavender;
+	text-align: left;
+	font-family: monospace, "Times New Roman", helvetica;
+}
+div.ulper, div.uldp, div.ulhab, div.ulid, div.ulas{
+ 	border: 8px solid lightblue;
+ 	border-radius: 100px;
+ 	padding: 20px;
+	width: 500px;
+	height: 100px;
+	margin: 0 auto;
+	text-align: left;
+}
+h1{
+	text-align: center;
+}
+h2{
+	background-color: lightcyan;
+	border-left: 40px solid cyan;
+	margin-left: 400px;
+	margin-right: 400px;
+}
+i.fa-american-sign-language-interpreting{
+	font-size: 35px;
+	margin: 0 auto;
+	padding: 25px
+
+}

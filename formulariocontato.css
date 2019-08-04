@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background: rgb(76, 170, 199);   
     color: #fff;
@@ -75,4 +76,83 @@ body{
 
 #button{
     text-align: center;
+=======
+body{
+    background: rgb(76, 170, 199);   
+    color: #fff;
+    font: 16px Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.call{
+    text-align: center;
+	font-size: 26px;
+	background-color: #4cc;
+    color: #fff;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 8px 4px;
+    border: #4cc solid;
+    border-radius: 20px;
+    text-shadow: 3px 2px teal
+}
+
+.form{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 22px;
+    background: #4ca;
+    border: #4ca 2px solid;
+    border-radius: 18px;
+    overflow: auto;
+}
+
+.form-group label{
+	background: #4cc;
+	color: #fff;
+    border-left: 12px solid cyan;
+    border-radius: 10px;
+    padding: 8px 4px 8px 4px;
+    text-shadow: 2px 1px teal;
+}
+
+.form-group input{
+	width: 100%;
+	margin-top: 14px;
+	margin-bottom: 14px;
+	padding: 4px 2px 4px 2px;
+}
+
+#textarea1{
+    width:100%;
+	resize: none;
+	margin-top: 14px;
+	margin-bottom: 14px;
+	padding: 4px 2px 4px 2px;
+}
+
+.button[type=submit]{
+	background-color: #4Cc;
+    border: 2px solid lightblue;
+    border-radius: 16px;
+	color: #fff;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+    cursor: pointer;
+    text-shadow: 2px 1px teal;
+}
+
+#button{
+    text-align: center;
+>>>>>>> e2abac983ececa262774892aab5aa07564d858a5
 }

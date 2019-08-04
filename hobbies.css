@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-* {
+*{
     box-sizing: border-box;
 }
-
-
 body{
     background-color: lavender;
     padding: 10px;
@@ -19,80 +16,127 @@ body{
 }
 
 .header{
-    background-color: aqua;
+    background-color: purple;
+    text-align: center;
+    color: #fff;
+    padding: 12px 10px;
+    margin: 0px 0px 20px 0px;
+    border: 2px solid purple;
+    border-radius: 16px;
+    text-shadow: 3px 2px #000;
 }
 
 .main-content{
     float: right;
-    width: 75%;
+    width: 70%;
     background-color: rgb(237, 205, 241);
     padding: 30px 20px;
+    margin-bottom: 20px;
+    border: 6px solid purple;
+    border-radius: 20px;
 }
 
 .aside{
     float: left;
-    width: 25%;
-    background-color: beige;
-}
-
-.videoparagraph{
-    text-align: center;
-    padding-top: 70px;
-}
-
-#tonyvid{
-    float: left;
-}
-
-#metalgearvid{
-    float: right;
-=======
-* {
-    box-sizing: border-box;
-}
-
-
-body{
-    background-color: lavender;
-    padding: 10px;
-	font: 16px Arial, monospace, "Times New Roman", helvetica;
-}
-
-.container{
-    width: 100%;
-    height: 100%;
+    width: 28%;
+    padding: 20px 20px 40px 20px;
     margin: 0 auto;
-    padding: 0 auto;
-    border: 0 auto;
+    border: 6px solid purple;
+    background-color: plum;
 }
-
-.header{
-    background-color: aqua;
+ul{
+    list-style: none;
 }
-
-.main-content{
-    float: right;
-    width: 75%;
-    background-color: rgb(237, 205, 241);
-    padding: 30px 20px;
+li img{
+    width: 20%;
+    height: 20%;
+    margin: 0;
+    padding: 6px 4px 6px 4px;
+    vertical-align: middle;
 }
+a:hover{
+    color: #fff;
 
-.aside{
-    float: left;
-    width: 25%;
-    background-color: beige;
 }
-
-.videoparagraph{
+#asideheader{
+    margin: 5px 10px 5px 10px;
+    padding: 20px 10px 20px 20px;
+    background-color: purple;
+    color: #fff;
+    border: 4px solid purple;
+    border-radius: 16px;
+    text-shadow: 3px 2px #000;
+}
+.title{
     text-align: center;
-    padding-top: 70px;
+    color: #fff;
+    background-color: purple;
+    padding: 18px 16px 18px 16px;
+    width: 45%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border: 6px solid purple;
+    border-radius: 20px;
+    text-shadow: 3px 2px #000;
 }
-
 #tonyvid{
+    width: 30%; 
+    height: 40%;
+    margin-right: 20px;
     float: left;
+    border: 6px solid #000;
+    border-radius: 12px;
+}
+#dokigitgudvid{
+    width: 50%; 
+    height: 70%;
+    float: right;
+    margin: 20px 0px 10px 10px;
+    border: 6px solid #000;
+    border-radius: 12px;
+}
+.paragraph1{
+    text-align: center;
+    background-color: purple;
+    color: #fff;
+    margin: auto;
+    padding: 120px 20px 130px 20px;
+    clear: right;
+    overflow: auto;
+    border: 6px solid #000;
+    border-radius: 12px;
 }
 
-#metalgearvid{
-    float: right;
->>>>>>> e2abac983ececa262774892aab5aa07564d858a5
+.paragraph2{
+    text-align: center;
+    background-color: purple;
+    color: #fff;
+    margin-bottom: -10px;
+    padding: 80px 20px 80px 20px;
+    clear: left;
+    overflow: auto;
+    border: 6px solid #000;
+    border-radius: 12px;
+}
+.imgtext{
+    text-align: center;
+    background-color: purple;
+    color: #fff;
+    clear: right;
+    overflow: auto;
+    border: 4px solid #000;
+    border-radius: 6px;
+    padding: 50px 0px 50px 0px;
+    margin: 10px 0px 5px 0px;
+}
+.img{
+    width: 480px; 
+    height: 240px;
+    margin-right: 20px;
+    float: left;
+    border: 6px solid #000;
+    border-radius: 12px;
+}
+.imgdiv{
+    margin-top: 50px;
 }

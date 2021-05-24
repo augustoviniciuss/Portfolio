@@ -1,5 +1,5 @@
-body{
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+	font-family: Tahoma, Geneva, Verdana, sans-serif;
 	font-size: medium;
 	background-color: #eee;
 	margin: 0;
@@ -9,19 +9,27 @@ body{
 header {
 	width: 100%;
 	margin: 0 auto 2vh;
+    padding: 0.5vw;
 	color: #eee;
 	background-color: #555;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header li {
+	list-style: none;
+}
+
+header a:visited {
+    color: purple;
 }
 
 main {
 	width: 50%;
 	margin: 0 auto;
-}
-
-h3{
-	background-color: #aaa;
-	margin: 0 auto;
-	padding: 2vh 1vw;
+    display: flexbox;
 }
 
 footer {
@@ -39,27 +47,44 @@ footer li {
 	list-style: none;
 }
 
-.container {
-	width: 50%;
-	margin: 0 auto;
+#conteudo-header, #conteudo-header p, #conteudo-header2, #nav-header, #nav-header li {
+    display: inline;
 }
 
-#icons li {
-	display: inline;
+main > .flex-item {
+    overflow: auto;
 }
 
-#conteudo-header {
-	display: inline;
+.flex-item{
+    border:4px red solid;
+    flex-grow:0;
+    width:100%;
 }
 
-#conteudo-header h1, #conteudo-header p {
-	display: inline;
+.flex-container{
+    display:flex;
+    flex-direction:row;
+    border:4px blue solid;
+    justify-content:space-between;
 }
 
-#nav-header li {
-	display: inline;
+.flex-container > .left{
+    width:100%;
+    border:4px red solid;
 }
 
-#conteudo-header2, #conteudo-header2 nav {
-	display: inline;
+.flex-container > .right{
+    display:flex;
+    flex-direction:row;
+    border:4px lime solid;
+    width:30%;
+}
+
+.flex-container > .right > div{
+    border:4px red solid;
+    width:50%;
+}
+
+li {
+    list-style: none;
 }
